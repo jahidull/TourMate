@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.lazy_programmer.tourmate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SlashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DonorForm"
+            android:label="Registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NeedBlood"
+            android:label="Menual Search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DonorList"
+            android:label="Donor List"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogIn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DonorFormUpdate" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAiKf9Hv4Ofq0OJ-u8sDoMD0yJrdN6N4gA" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Information"
+            android:label="Information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchType"
+            android:label="Search Type"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RangeSelectActivity"
+            android:label="Autometic Search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BadhonActivity"
+            android:label="Badhon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuantumActivity"
+            android:label="Quantum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SondhaniActivity"
+            android:label="Sandhani"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RedActivity"
+            android:label="Red Crescent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AboutUsActivity"
+                  android:label="About Us"
+                  android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".TermActivity"
+                  android:label="Term and Condition"
+                  android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>
